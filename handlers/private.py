@@ -14,12 +14,12 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Məni Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/HZMucisBot?startgroup=true"
+                        "➕ ❰ Məni Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/LegendMucisRobot?startgroup=true"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "🔊 Asistan", url="https://t.me/SecretMMC"
+                        "🔊 Asistan", url="https://t.me/LegendAsistant"
                     ),
                     InlineKeyboardButton(
                         "Support 💬", url="https://t.me/SecretMMC"
@@ -131,7 +131,7 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ❰ Məni Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/HZMucisBot?startgroup=true"
+                        "➕ ❰ Məni Qrupa Əlavə Et ❱ ➕", url=f"https://t.me/LegendMucisRobot?startgroup=true"
                     )
                 ],
                 [
