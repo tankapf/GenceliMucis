@@ -9,7 +9,7 @@ from helpers.filters import command, other_filters2
 async def start(_, message: Message):
                 await message.reply_photo(
                 "https://te.legra.ph//file/7da0b633df3bd002a4e5a.jpg",
-                caption=(f"""**Salam 👋{message.from_user.mention} 🎵\nMən {bot}!\nBot Yalnız @o2o_GenCeLi Tərəfindən 0dan Tərcümə edilib Və 0dan Yazılıb.🖤 Səs yetkisi verib, Asistanı qrupa əlavə edin.\n\nSahibim👉  [GenCeLi](https://t.me/o2o_GenCeLi)**"""),
+                caption=(f"""**Salam 👋{message.from_user.mention} 🎵\nMən Musiqi Botuyam{bot}!\nBot Yalnız @o2o_GenCeLi Tərəfindən 0dan Tərcümə edilib Və 0dan Yazılıb.🖤 Səs yetkisi verib, Asistanı qrupa əlavə edin.\n\nSahibim👉  [GenCeLi](https://t.me/o2o_GenCeLi)**"""),
          reply_markup=InlineKeyboardMarkup(
             [
                 [
