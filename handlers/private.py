@@ -9,7 +9,7 @@ from helpers.filters import command, other_filters2
 async def start(_, message: Message):
                 await message.reply_photo(
                 "https://te.legra.ph//file/7da0b633df3bd002a4e5a.jpg",
-                caption=(f"""**Salam {message.from_user.mention} 🎵\nMən {bot}!\nSəsli söhbətlərdə musiqi oxuyan botam. Ban yetkisiz, Səs yetkisi verib, Asistanı qrupa əlavə edin.\n\nSahibim👉  [GenCeLi](https://t.me/o2o_GenCeLi)**"""),
+                caption=(f"""**Salam 👋{message.from_user.mention} 🎵\nMən {bot}!\nSəsli söhbətlərdə musiqi oxuyan botam. Ban yetkisiz, Səs yetkisi verib, Asistanı qrupa əlavə edin.\n\nSahibim👉  [GenCeLi](https://t.me/o2o_GenCeLi)**"""),
          reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -27,10 +27,10 @@ async def start(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🧩 Əmrlər" , callback_data= "cbbilgi"
+                        "💡 Əmrlər" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
-                        "Rəsmi Kanal 🇦🇿", url=f"https://t.me/SecretMMC"
+                        "Rəsmi Kanal ✔️", url=f"https://t.me/SecretMMC"
                     )
                 ]
                 
@@ -47,7 +47,7 @@ async def bilgi(_, message: Message):
              [
                  [
                      InlineKeyboardButton(
-                         "🔴 İstifatəçi Əmrləri", callback_data="herkes")
+                         "⚡ İstifatəçi Əmrləri", callback_data="herkes")
                  ],[                     
                      InlineKeyboardButton(
                          "⚫ Admin  Əmrləri", callback_data="admin")
@@ -70,11 +70,11 @@ async def cbbilgi(_, query: CallbackQuery):
       [
         [
           InlineKeyboardButton(
-            "✨ Hərkəs üçün əmrlər", callback_data ="herkes")
+            "🐊 Hərkəs üçün əmrlər", callback_data ="herkes")
         ],
         [
           InlineKeyboardButton(
-            "👑 Admin əmrləri",callback_data ="admin")
+            "🧑🏻‍💻 Admin əmrləri",callback_data ="admin")
         ],
         [
           InlineKeyboardButton(
@@ -144,7 +144,7 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🧩 Əmrlər" , callback_data= "cbbilgi"
+                        "💡 Əmrlər" , callback_data= "cbbilgi"
                     ),
                     InlineKeyboardButton(
                         "Rəsmi Kanal 🇦🇿", url=f"https://t.me/o2o_GenCeLi"
